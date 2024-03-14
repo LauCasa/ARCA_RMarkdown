@@ -1,0 +1,33 @@
+{
+    "id": "5BC841AE",
+    "path": "C:/Users/DELL/Desktop/ARCA_RMarkdown/html_prova.Rmd",
+    "project_path": "html_prova.Rmd",
+    "type": "r_markdown",
+    "hash": "2230103855",
+    "contents": "",
+    "dirty": false,
+    "created": 1710149077115.0,
+    "source_on_save": true,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "40,339",
+        "scrollLine": "33",
+        "rmdVisualMode": "false",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:50.400001525878906",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "last_setup_crc32": "6df6c0118504c08f"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1710326951,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1710326951682,
+    "read_only": false,
+    "read_only_alternatives": []
+}

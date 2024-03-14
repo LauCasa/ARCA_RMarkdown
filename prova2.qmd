@@ -1,0 +1,31 @@
+---
+title: "Untitled"
+author: "Prova"
+format:
+  html:
+    toc: true
+    toc-title: "My contents"
+    toc-location: right
+    toc-depth: 3
+editor: source
+execute: 
+  eval: true
+  echo: true
+  warning: false
+lang: it
+---
+
+#
+
+##
+
+Mostrata in @fig-prima abbiamo:
+
+```{r}
+#| fig-cap: "La mia immagine"
+#| fig-cap-location: top
+#| out-width: 50%
+#| label: fig-prima
+#| fig-align: center
+knitr::include_graphics("IMG/fiori01.jpg")
+```

@@ -1,0 +1,48 @@
+---
+title: "Untitled"
+author: "Laura Casalino"
+date: "2024-03-13"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r cars}
+summary(cars)
+```
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+
+
+```{r plot-interactive, echo=FALSE, eval=knitr::is_html_output()}
+library(ggplot2)
+library(plotly)
+grafico = ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_bw() + theme(legend.position = "none") 
+plotly::ggplotly(grafico)
+
+```
+
+```{r plot-static, echo=FALSE, eval=knitr::is_latex_output()}
+library(ggplot2)
+library(plotly)
+grafico = ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_bw() + theme(legend.position = "none") 
+grafico
+
+```
+

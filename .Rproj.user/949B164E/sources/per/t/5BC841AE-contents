@@ -1,0 +1,143 @@
+---
+title: "Orange"
+subtitle: "sottotitolo"
+author: "Laura Casalino"
+date: "Università di Padova"
+output:
+  pdf_document: 
+   number_section: true
+toc: true
+toc_depth: true
+linestretch: 1.5
+geometry: margin=0.75in
+lang: it
+bibliography: bibliografia/biblio.bib
+---
+
+```{r setup, include=FALSE, comment="NA"}
+knitr::opts_chunk$set(echo = FALSE)
+#data("Orange")
+#dati=Orange
+load("Orange.rdata")
+hook_output <- knitr::knit_hooks$get("output")
+ knitr::knit_hooks$set(output = function(x, options) {
+     if (!is.null(n <- options$out.lines)) {
+         x <- xfun::split_lines(x)
+         if (length(x) > n) {
+             # truncate the output
+             x <- c(head(x, n), "....\n")
+         }
+         x <- paste(x, collapse = "\n")
+     }
+     hook_output(x, options)
+ })
+```
+
+\newpage
+
+# *\color{magenta}{L'arancio}*\normalcolor
+## *La pianta*
+
+L'**\color{magenta}{arancio} **\normalcolor  è un agrume sempreverde con una vita produttiva di 50-60 anni. Alcuni aranci ben curati possono vivere fino a 100 anni o più. La pianta dell’arancio (Citrus x sinensis) è un membro della famiglia delle Rutacee. È un albero che produce fiori e la sua altezza a maturità può variare tra 5 e 15 m. L’albero è coltivato principalmente per i suoi frutti, ma anche per i suoi fiori e come ornamentale. Il Brasile è il leader mondiale nella produzione di arance, infatti ogni 4 arance prodotte nel mondo, più di 1 è prodotta in Brasile. Tuttavia, anche Stati Uniti, Messico, India e Cina sono ottimi produttori di arance [@epifania2020implicit]. 
+
+Gli aranci, come tutti gli agrumi, sono alberi con un unico tronco centrale. I rami principali normalmente spuntano dal tronco all’altezza di 60-120 cm da terra. Il gambo è cilindrico e la chioma della maggior parte delle cultivar è tipicamente sferica, sebbene la forma possa variare a seconda di come vengono potati gli alberi. Gli aranci, anche se sempreverdi, sono caratterizzati da una tendenza a rinnovare costantemente il loro fogliame. Durante i primi anni fino allo sviluppo completo, la quantità annua di foglie appena formate è superiore a quella delle foglie vecchie che tendono a cadere. Le foglie giovani hanno un colore verde chiaro e gradualmente ricevono un colore verde più profondo. Il frutto è una bacca con buccia di colore arancione e polpa da arancione a rossa a seconda della varietà. Sia la superficie del frutto che quella delle foglie sono ricche di ghiandole oleaginose, che conferiscono all’arancia il suo caratteristico odore. Gli aranci di solito fioriscono in primavera. Sebbene producano molti fiori, solo una piccola percentuale di questi alla fine si trasforma in frutti maturi. I fiori d’arancio sono generalmente bianchi, con un odore molto gradevole.
+Altri esempi di agrumi possono essere:
+
+- Limoni
+  - con buccia edibile
+  - con buccia non edibile
+- Bergamotti
+- Pompelmi
+
+
+```{r, fig.cap = "Aranceto", fig.align="center", out.width="60%"}
+knitr::include_graphics(path = "IMG/aranceto01.jpg")
+```
+
+
+## *Esigenze ambientali*
+
+L’**\color{magenta}{arancio} **\normalcolor richiede per crescere molta luce. Predilige perciò le posizioni soleggiate e non tollera l’ombra nemmeno per poche ore al giorno. Nelle regioni dell’Italia meridionale, questa pianta può essere coltivata anche in collina, ad altezze non superiori ai 400 m, perché non resiste bene alfreddo. Se la temperatura tocca valori inferiori agli 0 °C la pianta subisce gravi danni. 
+
+> *"È bene ricordare che, durante l’inverno, l’arancio non perde le foglie e non attraversa lo stadio di riposo vegetativo. Un periodo molto critico è rappresentato dall’inizio della primavera: le brinate primaverili possono distruggere i fiori, che sbocciano nel mese di marzo, talvolta anche alla fine di febbraio. Per questo motivo si consiglia di non coltivare l’arancio nelle località in cui l’inverno si protrae per lungo tempo e nelle quali esiste il rischio che si verifichino brinate anche a primavera inoltrata."* 
+
+Il terreno più adatto per la crescita di questa coltura è fresco, ricco di sostanza organica e neutro, con un pH compreso tra i valori 6,5 e 7,5. L’arancio cresce stentatamente nei terreni molto ricchi di argilla, perché non tollera bene i fenomeni di ristagno idrico che frequentemente si verificano sulla superficie di questo tipo di suoli. Quando il terreno è eccessivamente umido, in ristagno di lunga durata (superiore a 2-3 giorni) può danneggiare la crescita delle radici, che possono morire per asfissia [^1]. 
+
+[^1]: Facciamo finta di scrivere un sacco di cose.
+
+La piantano tollera bene nemmeno i terreni che contengono calcare in percentuale superiore al 5-6%. In questo caso le foglie potrebbero ingiallire perché un elevato tasso di calcare impedisce l’assorbimento del ferro da parte delle radici.
+
+
+```{r, fig.cap = "Arance", fig.align="center", out.width="60%"}
+knitr::include_graphics(path = "IMG/arance.jpg")
+```
+
+
+## *Crescita*
+
+L’**\color{magenta}{arancio}**\normalcolor, come tutte le piante da frutto, ha una crescita piuttosto lenta, che si può riassumere nelle 4 fasi elencate qui di seguito. La fase improduttiva: dopo l’impianto, per 3-4 anni, si sviluppano solo gli organi vegetativi: foglie, fusti, radici. La fase di produttività crescente: la produzione, che è iniziata nel quarto o quinto anno dopo l’impianto, aumenta fino a raggiungere i massimi livelli quando la pianta ha 9-10 anni di vita. La fase di produttività costante: dura 18-20 anni. La fase di produttività decrescente: comincia 18-20 anni dopo l’impianto. La riduzione della produzione avviene con ritmi diversi a seconda della varietà. Dopo 2-3 anni dall’inizio di questa fase conviene estirpare le piante, effettuando il cosiddetto espianto. I tempi e i costi delle lavorazioni diventano infatti troppo elevati rispetto alla produzione che si riesce a ottenere. La scelta del momento in cui praticare l’espianto va effettuata in base alla varietà e alle condizioni di salute delle piante. Secondo @epifania2020dscoreapp la [**temperatura ottimale**](https://blog.europlantsvivai.com/coltivare-arancio-la-guida-completa/#:~:text=La%20crescita&text=La%20fase%20improduttiva%3A%20dopo%20l,9%2D10%20anni%20di%20vita.)[^2] per la crescita dell’arancio è di 27-29 °C, la massima tollerata è di 32 °C.
+
+[^2]: https://blog.europlantsvivai.com/coltivare-arancio-la-guida-completa/
+
+\newpage
+
+# *Risultati*
+
+```{r, echo=FALSE, eval=TRUE, comment=" "}
+head(dati)
+```
+
+
+```{r, echo=FALSE, eval=TRUE, comment="~"}
+summary(dati)
+```
+
+
+```{r, echo=FALSE, eval=TRUE, results='hide', comment="~"}
+# rinominare la variabaile dipendente in y
+dati$y = Orange$circumference
+# rinominare la variabile indipedente in x
+dati$x = Orange$Tree
+# maggiori dettagli sulla x
+table(dati$x)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+plot(dati$y ~ dati$x, col=c("purple","cyan", "yellowgreen", "gold",  "red"))
+```
+
+```{r, echo=TRUE, eval=FALSE}
+plot(dati$y ~ dati$x, col=c("purple","cyan", "yellowgreen", "gold",  "red"))
+```
+
+```{r, comment=" ", out.lines=11}
+Orange
+```
+
+```{r, results='asis', echo=FALSE, message=FALSE}
+library(stargazer)
+stargazer(Orange, type="latex", summary = TRUE, 
+           title= "Tabella di summary", digits = 3, header=FALSE)
+m = lm(y ~ x, data = dati)
+stargazer(m, type = "latex", summary = TRUE, title = "Risultati del modello", digits = 2,
+    header = FALSE)
+```
+
+```{r, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
+m0 = lm(y ~ 1, data = dati)
+m1 = lm(y ~ x, data = dati)
+stargazer(m0, m1, type = "latex", title = "Model comparison", digits = 2, intercept.top = TRUE,
+   intercept.bottom = FALSE, header = FALSE)
+```
+
+```{r}
+dati=Orange
+dati$y=dati$circumference
+mean(dati$y)
+dati$y[1]
+```
+$$z=\frac{`r dati$y[1]-mean(dati$y)`}{`r sd(dati$y)`}= {` r (dati$y[1]-mean(dati$y))/sd(dati$y)`}$$
+
+\newpage
+
+# References

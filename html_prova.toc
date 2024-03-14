@@ -1,0 +1,7 @@
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}\emph {\color {magenta}{L'arancio}}\normalcolor }{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\emph {La pianta}}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}\emph {Esigenze ambientali}}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}\emph {Crescita}}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}\emph {Risultati}}{5}{section.2}%
+\contentsline {section}{References}{8}{section*.2}%

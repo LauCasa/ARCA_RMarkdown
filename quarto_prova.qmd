@@ -1,0 +1,120 @@
+---
+title: "Oranges"
+author: "Prova"
+format:
+  html:
+    toc: true
+    toc-title: "My contents"
+    toc-location: right
+    toc-depth: 3
+theme: "vapor"
+editor: source
+execute: 
+  eval: true
+  echo: false
+  warning: false
+lang: it
+---
+
+# Le arance
+
+## Fiori e piante
+
+Mostrata in @fig-prima abbiamo: 
+
+
+```{r}
+#| fig-cap: "Fiori d'arancio"
+#| fig-cap-location: top
+#| out-width: 75%
+#| label: fig-prima
+#| fig-align: center
+knitr::include_graphics("IMG/fiori01.jpg")
+```
+
+
+## Grafici e analisi
+
+In @fig-grafico c'è un grafico esplicativo
+
+```{r}
+#| fig-cap: "Il mio grafico"
+#| fig-cap-location: top
+#| out-width: 50%
+#| fig-align: center
+#| label: fig-grafico
+library(ggplot2)
+ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_light() + theme(legend.position = "none") 
+
+```
+
+
+## Dati e tabelle
+
+
+:::: {.grid}
+
+
+::: {.g-col-4}
+
+L’arancio, come tutte le piante da frutto, ha una crescita piuttosto lenta, che si può riassumere nelle 4 fasi elencate qui di seguito. La fase improduttiva: dopo l’impianto, per 3-4 anni, si sviluppano solo gli organi vegetativi: foglie, fusti, radici.
+
+:::
+
+::: {.g-col-4}
+
+Nelle regioni dell’Italia meridionale, questa pianta può essere coltivata anche in collina, ad altezze non superiori ai 400 m, perché non resiste bene alfreddo. Se la temperatura tocca valori inferiori agli 0 °C la pianta subisce gravi danni.
+
+:::
+
+
+::: {.g-col-4}
+
+Il terreno più adatto per la crescita di questa coltura è fresco, ricco di sostanza organica e neutro, con un pH compreso tra i valori 6,5 e 7,5. L’arancio cresce stentatamente nei terreni molto ricchi di argilla. Mostrata in @fig-seconda abbiamo una pianta.
+
+:::
+
+::::
+
+
+::: {.panel-tabset}
+
+## Introduzione
+
+L'arancio è un agrume sempreverde con una vita produttiva di 50-60 anni. Alcuni aranci ben curati possono vivere fino a 100 anni o più. La pianta dell’arancio (Citrus x sinensis) è un membro della famiglia delle Rutacee. È un albero che produce fiori e la sua altezza a maturità può variare tra 5 e 15 m. L’albero è coltivato principalmente per i suoi frutti, ma anche per i suoi fiori e come ornamentale. 
+
+## Immagini
+
+
+```{r}
+#| fig-cap: "Arance"
+#| fig-cap-location: top
+#| out-width: 70%
+#| label: fig-seconda
+#| fig-align: center
+knitr::include_graphics("IMG/arance.jpg")
+```
+
+
+
+## Il grafico
+
+```{r}
+#| fig-cap: "grafico"
+#| fig-cap-location: top
+#| out-width: 75%
+#| fig-align: center
+#| label: fig-grafico2
+library(ggplot2)
+ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_light() + theme(legend.position = "none") 
+
+```
+
+
+:::
+
+

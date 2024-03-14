@@ -1,0 +1,31 @@
+---
+title: "Orange"
+author: "Laura Casalino"
+date: " "
+output: ioslides_presentation
+subtitle: "Sottotitolo"
+css: stile.css
+logo: IMG/logo.png
+widescreen: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Oranges
+
+## Le arance
+<span style="color:magenta">L'arancia </span>
+<font size="3">è un agrume sempreverde con una vita produttiva di 50-60 anni. Alcuni aranci ben curati possono vivere fino a 100 anni o più. La pianta dell’arancio (Citrus x sinensis) è un membro della famiglia delle Rutacee. È un albero che produce fiori e la sua altezza a maturità può variare tra 5 e 15 m.</font>
+
+```{r, fig.cap = "Arance", fig.align="right", out.width="40%"}
+knitr::include_graphics(path = "IMG/arance.jpg")
+```
+
+##
+
+```{r, fig.cap = "Aranceto", fig.align="center", out.width="75%"}
+knitr::include_graphics(path = "IMG/Aranceto01.jpg")
+```
+
