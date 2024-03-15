@@ -1,1 +1,1 @@
-Per accedere alla pagina clicca su: [quarto_prova](C:\Users\DELL\Desktop\ARCA_RMarkdown/quarto_prova.html)
+Per accedere alla pagina clicca su: [quarto_prova](quarto_prova.html)
